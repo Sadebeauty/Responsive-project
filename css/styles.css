@@ -81,5 +81,9 @@ p {
   p {
     text-align: center;
     font-size: 13px;
+    line-height: 30px;
+  }
+  .btn-branding-link {
+    display: block;
   }
 }

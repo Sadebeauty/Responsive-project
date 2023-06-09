@@ -1,6 +1,6 @@
 /** @format */
 :root {
-  --primary-color: #f9f7fe;
+  --primary-color: #e8e3f0;
   --secondary-color: #6c63ff;
   --font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
@@ -11,7 +11,7 @@
   background-color: var(--primary-color);
   padding: 160px 20px;
 }
-h1 {
+.hero h1 {
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 96px;
@@ -19,14 +19,14 @@ h1 {
   color: black;
 }
 
-p {
+.hero p {
   font-family: var(--secondary-font-family);
   font-weight: bold;
   font-size: 40px;
   color: rgb(7, 7, 65);
   margin: 0px;
 }
-h2 {
+.hero h2 {
   font-family: var(--secondary-font-family);
   font-weight: normal;
   font-size: 26px;
@@ -39,4 +39,47 @@ a.btn-branding {
   padding: 15px 30px;
   border-radius: 4px;
   line-height: 27px;
+}
+h1 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 200px;
+}
+.description {
+  margin: 30px auto;
+}
+p {
+  font-family: var(--secondary-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.btn-branding-link {
+  background-color: white;
+  color: var(--secondary-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  border: 3px solid;
+  border-radius: 4px;
+  line-height: 27px;
+}
+@media (max-width: 800px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+  }
+  .hero p {
+    font-size: 17px;
+    margin: 0 5px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 13px;
+  }
 }

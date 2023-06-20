@@ -65,9 +65,7 @@ p {
   line-height: 27px;
 }
 .content-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 200px;
+  margin: 100px;
 }
 .content-container h1 {
   font-family: var(--font-family);
@@ -96,7 +94,7 @@ p {
   line-height: 30px;
 }
 .content {
-  margin: 0 auto;
+  margin-top: 0 auto;
 }
 .content h1 {
   text-align: center;

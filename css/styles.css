@@ -100,10 +100,44 @@ p {
 .content h1 {
   text-align: center;
 }
+nav {
+  padding: 20px;
+}
+.logo {
+  max-height: 40px;
+}
+nav {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0;
+}
+nav ul {
+  padding: 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
 
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
+}
 @media (max-width: 800px) {
+  .hero {
+    padding: 100px 10px;
+  }
   .hero h1 {
     font-size: 40px;
+    margin-top: 20px;
   }
   h1 {
     text-align: center;
